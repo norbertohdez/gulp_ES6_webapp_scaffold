@@ -1,0 +1,60 @@
+{
+	"extends": "eslint:recommended",
+	"rules": {
+		"strict": 2,
+	    "array-callback-return": 2,
+	    "block-scoped-var": 2,
+	    "consistent-return": 1,
+	    "eqeqeq": 2,
+	    "no-alert": 1,
+	    "no-case-declarations": 2,
+	    "no-else-return": 1,
+	    "no-empty-function": 1,
+	    "no-empty-pattern": 2,
+	    "no-eval": 2,
+	    "no-implicit-globals": 1,
+	    "no-new": 1,
+	    "no-new-func": 1,
+	    "no-octal": 2,
+	    "no-octal-escape": 2,
+	    "no-proto": 2,
+	    "no-redeclare": 2,
+	    "no-self-assign": 2,
+	    "no-throw-literal": 2,
+	    "no-unused-expressions": 2,
+	    "comma-dangle": 1,
+	    "no-console": 1,
+	    "no-constant-condition": 1,
+	    "no-debugger": 1,
+	    "no-dupe-args": 2,
+	    "no-dupe-keys": 2,
+	    "no-duplicate-case": 2,
+	    "no-empty-character-class": 2,
+	    "no-extra-semi": 2,
+	    "no-func-assign": 1,
+	    "no-inner-declarations": 2,
+	    "no-invalid-regexp": 2,
+	    "no-irregular-whitespace": 2,
+	    "use-isnan": 2,
+	    "valid-typeof": 2,
+	    "no-const-assign": 2,
+	    "no-duplicate-imports": 2,
+	    "no-new-symbol": 2,
+	    "no-var": 2,
+	    "object-shorthand": 1,
+	    "prefer-const": [2, {
+	    	"destructuring": "any",
+	      	"ignoreReadBeforeAssign": true
+	    }],
+	    "sort-imports": 0,
+	    "quotes": [2, "single"]
+	},
+    "parserOptions": {
+        "ecmaVersion": 6
+    },
+    "env": {
+		"browser": true,
+		"node": true,
+		"jquery": true
+	}
+}
